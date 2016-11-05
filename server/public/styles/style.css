@@ -1,0 +1,51 @@
+#buttonBox {
+  position: fixed;
+  top: 300px;
+}
+#previous, #next {
+  background-color: pink;
+}
+
+#indices{
+  display: inline-block;
+  position: fixed;
+  top:250px;
+}
+
+td {
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+body {
+  background-color: cyan;
+}
+
+body {
+  color: purple;
+}
+
+/*#div1 {
+    position: fixed;
+    top: 250px;
+    margin: 5px;
+    border: 2px solid black;
+    height:25px;
+    width: 25px;
+}
+#div2 {
+    display:inline-table;
+    top: 250px;
+    margin: 5px;
+    border: 2px solid black;
+    height:25px;
+    width: 25px;
+  }
+  #div3 {
+      display:inline-table;
+      top: 250px;
+      margin: 5px;
+      border: 2px solid black;
+      height:25px;
+      width: 25px;*/
