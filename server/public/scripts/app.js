@@ -7,6 +7,7 @@ $(document).ready(function(){
         console.log(data);
         displayPerson(data);
         button(data);
+        setInterval(timer,10000, data);
       }
 
     });
@@ -42,4 +43,17 @@ $(document).ready(function(){
         displayPerson(test);
       });
     }
+
+
+function timer(test) {
+  sigmaStudent++;
+  if(sigmaStudent === 19){
+  sigmaStudent = 0;
+}
+
+$("#Sigma").empty();
+$("td").css('background', 'none');
+displayPerson(test);
+
+}
 });
