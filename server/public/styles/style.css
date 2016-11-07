@@ -12,6 +12,12 @@
   top:250px;
 }
 
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  text-decoration: underline;
+}
+
 td {
   border: 1px solid black;
   height: 25px;
@@ -20,11 +26,10 @@ td {
 
 body {
   background-color: cyan;
+  color: purple;
+  font-family: fantasy;
 }
 
-body {
-  color: purple;
-}
 
 /*#div1 {
     position: fixed;
